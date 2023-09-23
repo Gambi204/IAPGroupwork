@@ -1,0 +1,85 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+.topnav{
+    background-color: #fbebd3;
+    overflow: hidden;
+    padding: 20px;
+}
+.topnav a{
+    color:black;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topnav a:hover{
+    color: rgb(8, 7, 7);
+    text-decoration: none;
+    background-color:#51371f;
+    
+}
+.topnav_right{
+    color:rgb(26, 23, 20);
+    float: right;
+    text-decoration: none;
+    text-align: left;
+}
+.header{
+    background-color: #074f57;
+    background-image: url("../pictures/logo2.png");
+    background-repeat: repeat;
+   color: white;
+    padding: 200px;
+    text-align: center;
+    height: 150px;
+}
+.row:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.content_row{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float:left;
+    width: 60%;
+    padding:50px;
+}
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    width: 40%;
+    padding: 50px;
+
+}
+.footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(97, 95, 95);
+    padding: 15px;
+}
+.fa-brands{
+    float:right;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:700px){
+    .content,.sidebar{
+        width: 100%;
+    }
+}
