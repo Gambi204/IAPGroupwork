@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/webstructure.css"/>
+    <link rel="stylesheet" href="css/formstructure.css"/>
+    <script src="https://kit.fontawesome.com/804a3d4ad2.js"crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="aboutUs.html">About us</a>
+        <a href="viewBlog.html">Blog</a>
+        <a href="contactus.html">Contact us</a>
+        <a href="ourProducts.html">Our Products</a>
+    <div class="topnav_right">
+        <a href="viewusers.php">View Users</a>  
+        <a href="signIn.php">Sign in</a>
+        <a href="signUp.php">Sign up</a>
+        <i class="fa-brands fa-meetup fa-beat fa-2xl" style="color: #51371f;"></i>
+    </div>
+    </div>
+    <div class="header">
+        <h1>Our Contact</h1>
+    </div>
+<div class="content_row row">
+<div class="content">
+<h1>Contact Us</h1>
+<form action="process.html" method="POST" autocomplete="off">
+    <div><label for="fname">Full Name:</label></div>
+    <div><input type ="text"name="fname"id="fname"maxlength="50"required/></label></div>
+    <div><label for ="email">Email Address:</label></div> 
+    <div><input type="email" id="email"/></div>  
+    <div><label for="subject">Country:</label></div>     
+    <div>
+        <select name="subject">
+            <option value="">--Select Country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Location">Tanzania</option>
+            <option value="Location">Ethiopia</option>
+            <option value="Location">Rwanda</option>
+            <option value="Location">Other</option>
+        </select>
+    </div> 
+    <div><div><label for="message">Enter your message:</label></div>
+    <div><textarea name="message"id="message"required></textarea></div>
+<div> <input type="submit" name="send_message"value="Send"/></div>
+<i class="fa-brands fa-meetup fa-beat fa-2xl" style="color: #51371f;"></i>
+    </div>
+</form>
+</div>
+<div class="sidebar">
+    <h1>Connect with us</h1>
+    <p>Customer Care</p>
+    <p>customercare@spoooon.co</p>
+    <p>+25474567780</p><br>
+    <p>Marketing Enquiries</p>
+    <p>marketingenq@spoooon.co</p>
+    <p>+25434566786</p>
+    <br><br>
+    <img src="pictures/ima.png"/>
+</div>
+</div>
+<div class="footer">
+     &#169; 2023 Masala DARBAR
+     <i class="fa-solid fa-house"></i><br>
+    <i class="fa-brands fa-facebook fa-2xl"></i>
+    <i class="fa-brands fa-twitter fa-2xl"></i>
+    <i class="fa-brands fa-instagram fa-2xl"></i>
+    <i class="fa-solid fa-grill-hot"></i>
+</div>
+</body>
+</html>
