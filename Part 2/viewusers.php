@@ -37,6 +37,30 @@
 <div class="header">
     <h1>Users List</h1>
 </div>
+<div  class="content">
+    <ol>
+        <?php
+        
+
+        while ($stmt->fetch()) {
+            echo "<li>";
+            echo "$fullname"; // Display the user number and full name
+            echo "</li>";
+
+        }
+
+        $stmt->close(); // Close the prepared statement
+        ?>
+    </ol>
+</div>
+</body>
+</html>
+
+
+<?php
+// Close the database connection
+$conn->close();
+?>
 
 
 
